@@ -1,6 +1,9 @@
 public class Identifier {
 
 	public boolean validateIdentifier(String s) {
+		if (s == null || s.length == 0) {
+            return false;
+        }
 		char achar;
 		boolean valid_id = false;
 		achar = s.charAt(0);
@@ -8,7 +11,7 @@ public class Identifier {
 		if (s.length() > 1) {
 			achar = s.charAt(1);
 			int i = 1;
-			while (i < s.length() - 1) {
+			while (i < s.length()) {
 				achar = s.charAt(i);
 				if (!valid_f(achar)) {
 					valid_id = false;
@@ -16,7 +19,7 @@ public class Identifier {
 				i++;
 			}
 		}
-		if (valid_id && (s.length() >= 1) && (s.length() < 6))
+		if (valid_id && (s.length() >= 1) && (s.length() <= 6))
 			return true;
 		else
 			return false;
