@@ -1,7 +1,7 @@
 public class Identifier {
 
 	public boolean validateIdentifier(String s) {
-		if (s == null || s.length == 0) {
+		if (s == null || s.length() == 0) {
             return false;
         }
 		char achar;
