@@ -1,11 +1,15 @@
 <h1 align='center'>Computer Science - Software Testing</h1>
 <p align='center'>Introduction of test coverage analysis tools and mutation tests.</p>
 <p align="center">
-<a href="https://colab.research.google.com/drive/1S0gTieoFUjoIbJw0Mb88EK3aKh3qM2_C?usp=sharing"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a>
 	<a href="https://jupyter-notebook.readthedocs.io/en/stable/"><img src="https://img.shields.io/badge/Jupyter-Notebook-D0008F.svg" alt="Jupyter Compatibility"></a>
 	<a href="https://github.com/williamniemiec/cs-software-testing/blob/master/LICENSE"><img src="https://img.shields.io/github/license/williamniemiec/cs-software-testing" alt="License"></a>
 	<a href="https://github.com/williamniemiec/cs-software-testing/releases"><img src="https://img.shields.io/github/v/release/williamniemiec/cs-software-testing" alt="Release"></a>
 </p>
+
+<p align="center">
+	<a href='https://colab.research.google.com/drive/1S0gTieoFUjoIbJw0Mb88EK3aKh3qM2_C?usp=sharing'><img alt='Open in Colab' src='https://raw.githubusercontent.com/williamniemiec/williamniemiec/main/assets/images/badges/deploy-to-colab-button.png' width=200/></a>
+</p>
+
 <hr />
 
 ## ❇ Introduction
